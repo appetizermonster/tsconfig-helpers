@@ -1,8 +1,13 @@
 {
   "name": "tsconfig-helpers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "helper functions for tsconfig.json",
   "main": "src/index.js",
+  "homepage": "https://github.com/appetizermonster/tsconfig-helpers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appetizermonster/tsconfig-helpers.git"
+  },
   "scripts": {
     "test": "jest",
     "tdd": "jest --watch"
