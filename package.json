@@ -1,0 +1,18 @@
+{
+  "name": "tsconfig-helpers",
+  "version": "1.0.0",
+  "description": "helper functions for tsconfig.json",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "tdd": "jest --watch"
+  },
+  "author": "Heejin Lee <hjhome2000@naver.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "require-json-ex": "^1.0.2"
+  }
+}
