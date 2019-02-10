@@ -12,7 +12,7 @@ function readPathsFromTsConfig(projectPath) {
 
 function getWebpackAliasFromTsConfig(projectPath) {
   const paths = readPathsFromTsConfig(projectPath);
-  return webpackHelpers.getWebpackAliasFromPaths(paths);
+  return webpackHelpers.getWebpackAliasFromPaths(projectPath, paths);
 }
 
 function getJestModuleNameMapperFromTsConfig() {
