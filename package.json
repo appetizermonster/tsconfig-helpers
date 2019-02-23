@@ -1,6 +1,6 @@
 {
   "name": "tsconfig-helpers",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "helper functions for tsconfig.json",
   "main": "src/index.js",
   "homepage": "https://github.com/appetizermonster/tsconfig-helpers",
